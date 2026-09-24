@@ -1,5 +1,7 @@
 # AI Fraud & Risk Rules Engine
 
+![Project Screenshot](screenshots/dashboard.png)
+
 ## Product Overview
 The **AI Fraud & Risk Rules Engine** is a prototype of a real-time risk-scoring application designed for financial institutions and payment gateways. It evaluates incoming transactions against a set of risk factors, calculates a cumulative risk score, and determines a recommended action (Approve, Flag, Decline). Most importantly, the product provides **explainability**—surfacing the exact rules that triggered a risk alert to help analysts understand why an AI system made a specific decision.
 
