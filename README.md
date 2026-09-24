@@ -122,18 +122,3 @@ src/
 - **Mobile Responsiveness:** While somewhat responsive, the dashboard is optimized for desktop viewing (which is standard for analyst tools).
 
 ---
-
-## Interview Talking Points
-
-- **60-sec explanation:** "I built an AI Fraud & Risk Rules Engine prototype that simulates how financial transactions are scored for risk in real-time. It demonstrates a dashboard for analysts to monitor aggregate data and a detailed view for explainable AI, showing exactly which rules triggered a high-risk score to balance automated decisions with human oversight."
-- **Problem:** Black-box AI models in fraud detection cause frustration because analysts and customer support cannot explain why a transaction was declined.
-- **Decision:** I chose to build a transparent, weighted rule-based engine for the prototype because explainability is the core UX challenge I wanted to solve.
-- **Tradeoff:** I traded the accuracy of a complex ML model for the absolute transparency of a rules engine to ensure the UI could perfectly explain every decision.
-- **Tech:** React, TypeScript, Tailwind CSS, Recharts. I chose Vite for the build tool because of its speed and modern ecosystem.
-- **AI/Automation:** The app simulates AI by automating the decision-making process (Approve/Flag/Decline) based on multi-variable risk scoring, reducing the manual review workload.
-- **Metrics:** If this were a live product, I would measure the average time it takes an analyst to review a flagged transaction and the overall false positive rate.
-- **Next:** Next steps would involve adding a feedback mechanism where an analyst's manual override adjusts the weights of the rules engine.
-- **Questions:** How does your current team balance automated fraud prevention with customer friction? What tools do your analysts use today?
-
-## Disclaimer
-This is a prototype built for portfolio and demonstration purposes. It uses synthetic data and does not connect to any real financial systems or machine learning backends.
